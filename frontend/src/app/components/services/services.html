@@ -1,0 +1,20 @@
+<div class="services-page">
+  <div class="container">
+    <div class="page-header">
+      <h1>Our Services</h1>
+      <p class="lead">Comprehensive insurance solutions tailored to your needs</p>
+    </div>
+
+    <div class="services-list">
+      <div class="service-item" *ngFor="let service of services">
+        <div class="service-icon">
+          <i class="fas {{service.iconClass}}"></i>
+        </div>
+        <div class="service-details">
+          <h2>{{service.title}}</h2>
+          <p>{{service.description}}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

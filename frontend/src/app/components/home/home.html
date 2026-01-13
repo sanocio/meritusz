@@ -1,0 +1,41 @@
+<div class="home">
+  <section class="hero">
+    <div class="container">
+      <h1>Welcome to Meritum Insurance Brokerage</h1>
+      <p class="hero-subtitle">Professional insurance solutions since 1992</p>
+      <div class="hero-buttons">
+        <a routerLink="/services" class="btn btn-primary">Our Services</a>
+        <a routerLink="/contact" class="btn btn-secondary">Contact Us</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="services-preview">
+    <div class="container">
+      <h2>Our Services</h2>
+      <div class="services-grid">
+        <div class="service-card" *ngFor="let service of services">
+          <div class="service-icon">
+            <i class="fas {{service.iconClass}}"></i>
+          </div>
+          <h3>{{service.title}}</h3>
+          <p>{{service.description}}</p>
+        </div>
+      </div>
+      <div class="text-center">
+        <a routerLink="/services" class="btn btn-primary">View All Services</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="about-preview">
+    <div class="container">
+      <div class="about-content">
+        <h2>About Meritum Biztosítási Alkusz</h2>
+        <p>We are a professional insurance brokerage company with decades of experience in the Hungarian insurance market. Our licensed brokers help clients find the best insurance solutions tailored to their needs.</p>
+        <p>Operating since 1992, we provide free consultations and professional advice across corporate insurance, vehicle insurance, life insurance, and property insurance.</p>
+        <a routerLink="/about" class="btn btn-secondary">Learn More</a>
+      </div>
+    </div>
+  </section>
+</div>
