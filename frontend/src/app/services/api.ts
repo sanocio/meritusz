@@ -7,7 +7,7 @@ import { Service, InsuranceProduct, ContactInfo, AboutUs } from '../models/model
   providedIn: 'root',
 })
 export class Api {
-  private apiUrl = 'http://localhost:5000/api';
+  private apiUrl = 'http://localhost:5029/api';
 
   constructor(private http: HttpClient) {}
 
