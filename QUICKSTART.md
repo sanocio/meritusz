@@ -70,9 +70,9 @@ dotnet run
 ```
 
 The API will start at:
-- HTTP: http://localhost:5000
-- HTTPS: https://localhost:5001
-- Swagger UI: https://localhost:5001/swagger
+- HTTP: http://localhost:5029
+- HTTPS: https://localhost:7285
+- Swagger UI: http://localhost:5029/swagger or https://localhost:7285/swagger
 
 ### 3. Setup Frontend (Angular)
 
